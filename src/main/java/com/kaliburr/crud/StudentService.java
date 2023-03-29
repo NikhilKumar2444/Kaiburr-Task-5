@@ -23,8 +23,5 @@ public class StudentService {
 	public List<Student> allNameStu(String Name){
 		return studentRepo.findAllStudentByfullname(Name);
 	}
-	public void updateStu(Student stu,Student student) {
-	
-		
-	}
+
 }
